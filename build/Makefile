@@ -129,12 +129,26 @@ qp_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_main.dir/build.make CMakeFiles/qp_main.dir/build
 .PHONY : qp_main/fast
 
+#=============================================================================
+# Target rules for targets named qp_module
+
+# Build rule for target.
+qp_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qp_module
+.PHONY : qp_module
+
+# fast build rule for target.
+qp_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/build
+.PHONY : qp_module/fast
+
 src/QP.o: src/QP.cpp.o
 .PHONY : src/QP.o
 
 # target to build an object file
 src/QP.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_main.dir/build.make CMakeFiles/qp_main.dir/src/QP.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/src/QP.cpp.o
 .PHONY : src/QP.cpp.o
 
 src/QP.i: src/QP.cpp.i
@@ -143,6 +157,7 @@ src/QP.i: src/QP.cpp.i
 # target to preprocess a source file
 src/QP.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_main.dir/build.make CMakeFiles/qp_main.dir/src/QP.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/src/QP.cpp.i
 .PHONY : src/QP.cpp.i
 
 src/QP.s: src/QP.cpp.s
@@ -151,6 +166,7 @@ src/QP.s: src/QP.cpp.s
 # target to generate assembly for a file
 src/QP.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_main.dir/build.make CMakeFiles/qp_main.dir/src/QP.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/src/QP.cpp.s
 .PHONY : src/QP.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -177,6 +193,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_main.dir/build.make CMakeFiles/qp_main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/qp_bindings.o: src/qp_bindings.cpp.o
+.PHONY : src/qp_bindings.o
+
+# target to build an object file
+src/qp_bindings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/src/qp_bindings.cpp.o
+.PHONY : src/qp_bindings.cpp.o
+
+src/qp_bindings.i: src/qp_bindings.cpp.i
+.PHONY : src/qp_bindings.i
+
+# target to preprocess a source file
+src/qp_bindings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/src/qp_bindings.cpp.i
+.PHONY : src/qp_bindings.cpp.i
+
+src/qp_bindings.s: src/qp_bindings.cpp.s
+.PHONY : src/qp_bindings.s
+
+# target to generate assembly for a file
+src/qp_bindings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/src/qp_bindings.cpp.s
+.PHONY : src/qp_bindings.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +226,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... qp_main"
+	@echo "... qp_module"
 	@echo "... src/QP.o"
 	@echo "... src/QP.i"
 	@echo "... src/QP.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/qp_bindings.o"
+	@echo "... src/qp_bindings.i"
+	@echo "... src/qp_bindings.s"
 .PHONY : help
 
 

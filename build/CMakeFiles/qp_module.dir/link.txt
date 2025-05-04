@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -bundle -Wl,-headerpad_max_install_names -Xlinker -undefined -Xlinker dynamic_lookup -o qp_module.cpython-313-darwin.so CMakeFiles/qp_module.dir/src/qp_bindings.cpp.o CMakeFiles/qp_module.dir/src/QP.cpp.o

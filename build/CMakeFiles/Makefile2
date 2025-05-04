@@ -64,10 +64,12 @@ CMAKE_BINARY_DIR = /Users/carlosm/Documents/guidance/qp_solver/build
 
 # The main recursive "all" target.
 all: CMakeFiles/qp_main.dir/all
+all: CMakeFiles/qp_module.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/qp_main.dir/codegen
+codegen: CMakeFiles/qp_module.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/qp_main.dir/clean
+clean: CMakeFiles/qp_module.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -109,6 +112,38 @@ CMakeFiles/qp_main.dir/codegen:
 CMakeFiles/qp_main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_main.dir/build.make CMakeFiles/qp_main.dir/clean
 .PHONY : CMakeFiles/qp_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/qp_module.dir
+
+# All Build rule for target.
+CMakeFiles/qp_module.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles --progress-num=4,5,6 "Built target qp_module"
+.PHONY : CMakeFiles/qp_module.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/qp_module.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qp_module.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles 0
+.PHONY : CMakeFiles/qp_module.dir/rule
+
+# Convenience name for target.
+qp_module: CMakeFiles/qp_module.dir/rule
+.PHONY : qp_module
+
+# codegen rule for target.
+CMakeFiles/qp_module.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles --progress-num=4,5,6 "Finished codegen for target qp_module"
+.PHONY : CMakeFiles/qp_module.dir/codegen
+
+# clean rule for target.
+CMakeFiles/qp_module.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qp_module.dir/build.make CMakeFiles/qp_module.dir/clean
+.PHONY : CMakeFiles/qp_module.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,1 +1,1 @@
-/usr/bin/clang++ -g -O0 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/qp_main.dir/src/main.cpp.o CMakeFiles/qp_main.dir/src/QP.cpp.o -o qp_main
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/qp_main.dir/src/main.cpp.o CMakeFiles/qp_main.dir/src/QP.cpp.o -o qp_main

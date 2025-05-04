@@ -1,14 +1,26 @@
 [
 {
   "directory": "/Users/carlosm/Documents/guidance/qp_solver/build",
-  "command": "/usr/bin/clang++  -I/Users/carlosm/Documents/guidance/qp_solver/include -I/Users/carlosm/Documents/guidance/qp_solver/lib/eigen-3.4.0 -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/qp_main.dir/src/main.cpp.o -c /Users/carlosm/Documents/guidance/qp_solver/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/carlosm/Documents/guidance/qp_solver/include -I/Users/carlosm/Documents/guidance/qp_solver/lib/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/qp_main.dir/src/main.cpp.o -c /Users/carlosm/Documents/guidance/qp_solver/src/main.cpp",
   "file": "/Users/carlosm/Documents/guidance/qp_solver/src/main.cpp",
   "output": "CMakeFiles/qp_main.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/carlosm/Documents/guidance/qp_solver/build",
-  "command": "/usr/bin/clang++  -I/Users/carlosm/Documents/guidance/qp_solver/include -I/Users/carlosm/Documents/guidance/qp_solver/lib/eigen-3.4.0 -g -O0 -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/qp_main.dir/src/QP.cpp.o -c /Users/carlosm/Documents/guidance/qp_solver/src/QP.cpp",
+  "command": "/usr/bin/clang++  -I/Users/carlosm/Documents/guidance/qp_solver/include -I/Users/carlosm/Documents/guidance/qp_solver/lib/eigen-3.4.0 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/qp_main.dir/src/QP.cpp.o -c /Users/carlosm/Documents/guidance/qp_solver/src/QP.cpp",
   "file": "/Users/carlosm/Documents/guidance/qp_solver/src/QP.cpp",
   "output": "CMakeFiles/qp_main.dir/src/QP.cpp.o"
+},
+{
+  "directory": "/Users/carlosm/Documents/guidance/qp_solver/build",
+  "command": "/usr/bin/clang++ -Dqp_module_EXPORTS -I/Users/carlosm/Documents/guidance/qp_solver/include -I/Users/carlosm/Documents/guidance/qp_solver/lib/eigen-3.4.0 -isystem /Users/carlosm/miniconda3/envs/qoco/include -isystem /Users/carlosm/miniconda3/envs/qoco/include/python3.13 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden -o CMakeFiles/qp_module.dir/src/qp_bindings.cpp.o -c /Users/carlosm/Documents/guidance/qp_solver/src/qp_bindings.cpp",
+  "file": "/Users/carlosm/Documents/guidance/qp_solver/src/qp_bindings.cpp",
+  "output": "CMakeFiles/qp_module.dir/src/qp_bindings.cpp.o"
+},
+{
+  "directory": "/Users/carlosm/Documents/guidance/qp_solver/build",
+  "command": "/usr/bin/clang++ -Dqp_module_EXPORTS -I/Users/carlosm/Documents/guidance/qp_solver/include -I/Users/carlosm/Documents/guidance/qp_solver/lib/eigen-3.4.0 -isystem /Users/carlosm/miniconda3/envs/qoco/include -isystem /Users/carlosm/miniconda3/envs/qoco/include/python3.13 -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden -o CMakeFiles/qp_module.dir/src/QP.cpp.o -c /Users/carlosm/Documents/guidance/qp_solver/src/QP.cpp",
+  "file": "/Users/carlosm/Documents/guidance/qp_solver/src/QP.cpp",
+  "output": "CMakeFiles/qp_module.dir/src/QP.cpp.o"
 }
 ]

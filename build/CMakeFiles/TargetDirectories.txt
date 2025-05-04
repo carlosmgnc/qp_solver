@@ -1,3 +1,4 @@
 /Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles/qp_main.dir
+/Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles/qp_module.dir
 /Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles/edit_cache.dir
 /Users/carlosm/Documents/guidance/qp_solver/build/CMakeFiles/rebuild_cache.dir
