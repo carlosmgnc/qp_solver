@@ -111,10 +111,6 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
 				"backtrace" : 3,
 				"fragment" : "-Xlinker",
 				"role" : "flags"

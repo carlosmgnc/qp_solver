@@ -80,10 +80,6 @@
 			{
 				"fragment" : "-g",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
 			}
 		],
 		"language" : "CXX"

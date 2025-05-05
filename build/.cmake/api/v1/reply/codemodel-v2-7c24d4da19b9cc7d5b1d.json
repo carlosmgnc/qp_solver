@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "qp_main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qp_main-Debug-826fdb1d301628662536.json",
+					"jsonFile" : "target-qp_main-Debug-4befd93c41655d9a30ec.json",
 					"name" : "qp_main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "qp_module::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qp_module-Debug-e91df593f06d4308292b.json",
+					"jsonFile" : "target-qp_module-Debug-227e433ca947b3a9491f.json",
 					"name" : "qp_module",
 					"projectIndex" : 0
 				}
@@ -64,6 +64,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 7
+		"minor" : 8
 	}
 }
